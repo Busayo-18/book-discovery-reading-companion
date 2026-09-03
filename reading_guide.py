@@ -21,7 +21,6 @@ class ReadingGuideGenerator:
     - A reading level
     - Discussion questions
     """
-    pass
 
     def __init__(self):
         """
