@@ -214,11 +214,8 @@ member6-ui
 
 
 ------Future Improvements-------
-Improve cover-image sizing and cropping
 
 More advanced recommendations
-
-Search Open Library for recommendations automatically
 
 Sorting and filtering
 
@@ -233,4 +230,4 @@ Package the desktop application as a Windows .exe
 Create a web version of the application
 
 ------License-------
-This project was developed as a group/academic software project.
+This project was developed as a group project for Python Advanced as NITDA Interns.
