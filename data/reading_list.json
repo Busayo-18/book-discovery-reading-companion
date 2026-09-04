@@ -136,5 +136,50 @@
             "Were there any moments in the book where a character's \"facade\" began to crack? How did they react, and what did it reveal about their true character?",
             "How does this book challenge the reader to examine their own life and the potential \"masks\" they might wear in different social or professional environments?"
         ]
+    },
+    {
+        "title": "Good Omens",
+        "authors": [
+            "Terry Pratchett",
+            "Neil Gaiman"
+        ],
+        "first_publication_year": 1990,
+        "subjects": [
+            "End of the world",
+            "Humorous",
+            "Fantasy fiction",
+            "Fiction",
+            "Prophecies",
+            "Occult fiction",
+            "Witches",
+            "Humorous fiction",
+            "Apocalypse",
+            "Roman",
+            "Sorci\u00e8res",
+            "Antichrist",
+            "Angels",
+            "Fiction, fantasy, contemporary",
+            "Fiction, humorous",
+            "fantasy",
+            "humor",
+            "Fiction, fantasy, general",
+            "nyt:trade-fiction-paperback=2019-06-23",
+            "New York Times bestseller",
+            "New York Times reviewed",
+            "Fiction, humorous, general",
+            "Fin du monde",
+            "Romans, nouvelles",
+            "Large type books",
+            "Proph\u00e9ties",
+            "Livres en gros caract\u00e8res",
+            "Large print books"
+        ],
+        "pagecount": 400,
+        "cover_url": "https://covers.openlibrary.org/b/id/10482258-L.jpg",
+        "isbn": "9780739474143",
+        "status": "Want to Read",
+        "summary": null,
+        "reading_level": null,
+        "discussion_questions": []
     }
 ]

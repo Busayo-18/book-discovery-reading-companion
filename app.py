@@ -234,12 +234,7 @@ class BookApp:
             padx=5
         )
 
-       self.create_button(
-            button_frame,
-            "🗑 Remove Book",
-            self.remove_book
-            ).pack(side="left", padx=5)
-        
+       
         # --------------------------------------------------
         # SEARCH RESULTS
         # --------------------------------------------------
@@ -512,6 +507,13 @@ class BookApp:
             "📋 My Reading List",
             self.view_reading_list
             ).pack(side="left", padx=5)
+        
+        self.create_button(
+            button_frame,
+            "🗑 Remove Book",
+            self.remove_book
+            ).pack(side="left", padx=5)
+                
 
         # --------------------------------------------------
         # RESULTS
