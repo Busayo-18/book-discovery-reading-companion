@@ -234,6 +234,12 @@ class BookApp:
             padx=5
         )
 
+       self.create_button(
+            button_frame,
+            "🗑 Remove Book",
+            self.remove_book
+            ).pack(side="left", padx=5)
+        
         # --------------------------------------------------
         # SEARCH RESULTS
         # --------------------------------------------------
@@ -1033,6 +1039,36 @@ class BookApp:
                 f"{number}. {book.title} — {authors}\n"
                 f"   Status: {book.status}\n\n"
             )
+    
+    # ==================================================
+    # REMOVE BOOK
+    # ==================================================
+    
+    def remove_book(self):
+    
+        if not self.current_book:
+            messagebox.showwarning("No Book", "Please search for a book first.")
+            return
+    
+        confirm = messagebox.askyesno(
+            "Remove Book",
+            f'Remove "{self.current_book.title}" from your reading list?'
+        )
+    
+        if not confirm:
+            return
+    
+        try:
+            isbn = self.current_book.isbn
+            title = self.current_book.title
+    
+            self.reading_list.remove_book(isbn)
+            self.reading_list.save_list()
+    
+            messagebox.showinfo("Removed", f'"{title}" has been removed from your reading list.')
+    
+        except Exception as error:
+            messagebox.showerror("Error", f"Could not remove the book:\n{error}")
 
 
 # ==================================================
